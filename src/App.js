@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hey fart boi 
+        Welcome to code splitting
       </header>
-      <Link to='/big'>big boi</Link>
+      <Link to='/big'>To Big Component branch</Link>
       <React.Suspense fallback={<div>Loading...</div>}>
         <Router>
           <Big path='/big' />
